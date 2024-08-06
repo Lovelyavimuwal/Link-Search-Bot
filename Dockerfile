@@ -29,6 +29,9 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     python3-dev \
     gcc \
+    libxml2-dev \
+    libxslt1-dev \
+    zlib1g-dev \
     && apt-get clean
 
 # Upgrade pip and install Python dependencies
